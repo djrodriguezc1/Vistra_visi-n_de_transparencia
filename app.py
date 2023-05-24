@@ -1,10 +1,8 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-import altair as alt
 from pyspark.sql.functions import col
 from pyspark.sql.types import StructType,StructField, StringType, IntegerType
-import plotly.express as px
 from PIL import Image
 import streamlit as st
 from pyspark.sql import Row
