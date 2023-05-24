@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1683367589761,"sparkVersion":"3.4.0","uid":"StringIndexer_7f0fcdb8a90e","paramMap":{"inputCol":"Nombre Grupo","outputCol":"Nombre GrupoIndex"},"defaultParamMap":{"outputCol":"StringIndexer_7f0fcdb8a90e__output","handleInvalid":"error","stringOrderType":"frequencyDesc"}}

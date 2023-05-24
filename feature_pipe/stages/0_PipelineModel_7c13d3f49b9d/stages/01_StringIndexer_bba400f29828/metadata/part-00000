@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1683367589447,"sparkVersion":"3.4.0","uid":"StringIndexer_bba400f29828","paramMap":{"outputCol":"Objeto a ContratarIndex","inputCol":"Objeto a Contratar"},"defaultParamMap":{"stringOrderType":"frequencyDesc","handleInvalid":"error","outputCol":"StringIndexer_bba400f29828__output"}}

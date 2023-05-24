@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1683367590125,"sparkVersion":"3.4.0","uid":"StringIndexer_b6fbcdbb88ec","paramMap":{"outputCol":"Municipio EntidadIndex","inputCol":"Municipio Entidad"},"defaultParamMap":{"outputCol":"StringIndexer_b6fbcdbb88ec__output","stringOrderType":"frequencyDesc","handleInvalid":"error"}}

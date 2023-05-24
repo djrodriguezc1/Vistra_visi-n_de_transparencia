@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1683367588781,"sparkVersion":"3.4.0","uid":"StringIndexer_2cb458b5e538","paramMap":{"outputCol":"Tipo de ProcesoIndex","inputCol":"Tipo de Proceso"},"defaultParamMap":{"stringOrderType":"frequencyDesc","outputCol":"StringIndexer_2cb458b5e538__output","handleInvalid":"error"}}
