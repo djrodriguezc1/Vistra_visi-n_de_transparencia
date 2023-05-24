@@ -132,5 +132,4 @@ def main():
 if __name__=='__main__':
     main()
 
-elif st.session_state['answer'] not in realans:
-    answerStat = "incorrect"
+
