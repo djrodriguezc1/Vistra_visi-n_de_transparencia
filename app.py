@@ -131,9 +131,6 @@ def main():
     print(Adiciones_cuantia_contrato)
 if __name__=='__main__':
     main()
-[client] Connecting...
-st.session_state['answer'] = ''
-if  st.session_state['answer'] in realans:
-    answerStat = "correct"
+
 elif st.session_state['answer'] not in realans:
     answerStat = "incorrect"
