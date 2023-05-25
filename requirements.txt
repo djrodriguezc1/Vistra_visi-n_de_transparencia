@@ -6,4 +6,6 @@ plotly
 pyspark >= 3.0.0
 pytest
 py4j
-
+grpc
+grpcio-status
+googleapis-common-protos
