@@ -11,8 +11,7 @@ from pyspark.sql import Row
 from pyspark.sql import SparkSession
 from pyspark.ml.pipeline import PipelineModel
 from pyspark.ml.classification import DecisionTreeClassificationModel
-#spark = SparkSession.builder.getOrCreate()
-spark = SparkSession.builder.remote("sc://localhost:15002").getOrCreate()
+spark = SparkSession.builder.getOrCreate()
 
 #Funcion para desplegar el modelo y el pipeline
 
