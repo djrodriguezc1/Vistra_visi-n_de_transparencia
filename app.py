@@ -12,6 +12,7 @@ from pyspark.sql import SparkSession
 from pyspark.ml.pipeline import PipelineModel
 from pyspark.ml.classification import DecisionTreeClassificationModel
 spark = SparkSession.builder.getOrCreate()
+st.write("[Link to Spark window](http://localhost:4040)")
 
 #Funcion para desplegar el modelo y el pipeline
 
