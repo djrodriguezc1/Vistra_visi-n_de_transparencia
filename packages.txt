@@ -1,0 +1,4 @@
+default-jre
+conda install -c cyclus java-jdk
+conda create -n pyspark-demo
+conda activate pyspark-demo
