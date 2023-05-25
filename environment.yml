@@ -1,5 +1,0 @@
-
-conda install -c cyclus java-jdk.
-conda install -r requirements.txt
-conda create -n pyspark-demo
-conda activate pyspark-demo
