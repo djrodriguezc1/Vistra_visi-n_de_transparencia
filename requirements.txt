@@ -6,7 +6,6 @@ plotly
 pyspark >= 3.0.0
 pytest
 py4j
-
 grpcio-status == 1.48.1
 googleapis-common-protos == 1.56.4
-pyarrow == 1.0.0
+
