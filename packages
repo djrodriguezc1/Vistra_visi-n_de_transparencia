@@ -1,3 +1,4 @@
 default-jdk
 default-jre
 default-jre-headless
+conda install -c cyclus java-jdk
