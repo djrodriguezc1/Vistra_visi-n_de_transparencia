@@ -7,6 +7,7 @@ from pyspark.sql.types import StructType,StructField, StringType, IntegerType
 import plotly.express as px
 from PIL import Image
 import streamlit as st
+from utils import _initialize_spark
 from pyspark.sql import Row
 from pyspark.sql import SparkSession
 from pyspark.ml.pipeline import PipelineModel
