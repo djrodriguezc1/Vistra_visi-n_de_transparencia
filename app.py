@@ -62,7 +62,8 @@ def main():
     st.markdown('Si el contrato tiene altas probabilidades de incumplir la norma el resultado es un letrero en letras rojas con el siguiente mensaje:')
     st.error('Probabilidades altas de tener adiciones futuras en la cuantía del contrato mayores al 50%')
     st.subheader('**Para mayor información descargue el manual de usuario para el usa de esta aplicación a continuacion:**')
-    st.download_button(label="Manual de Usuario", data=pdf,file_name='Manual_usuarui_app.pdf',mime='text/pdf',)
+    pdf_file = st.file_uploader("Manual_usuarui_app", type=["pdf"])
+    st.download_button(label="Manual de Usuario", data=pdf_file ,file_name='Manual_usuarui_app.pdf',mime='text/pdf',)
     st.subheader('**A continuación use el cursor o escriba las 12 características solicitadas del contrato que quiere evaluar.**')
 
     # Despliegiçue de las variables
