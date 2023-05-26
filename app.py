@@ -96,12 +96,12 @@ def main():
     if (rango == 'M'):
         st.success("Meses")
     elif(rango == 'D'):
-        st.success("Días")
+        st.success("Das")
     else:
         st.success("No sabe")
     st.write('Seleccionaste:',rango)
-    cuantia = st.number_input('Cuantia del Contrato(inserte valores enteros mayores a 1 millón)',1000000,100000000000000,1000000)
-    st.write('La cuantia del contrato en millones es:', cuantia/1000000)
+    cuantia = st.number_input('Cuantía del Contrato(inserte valores enteros mayores a 1 millón)',1000000,100000000000000,1000000)
+    st.write('La cuantía del contrato en millones es:', cuantia/1000000)
     origen_recursos = st.selectbox(
     'Origen de los Recursos',dict['origen_recursos'])
     origen_recursos=str(origen_recursos)
