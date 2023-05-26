@@ -62,7 +62,7 @@ def main():
     st.markdown('Si el contrato tiene altas probabilidades de incumplir la norma el resultado es un letrero en letras rojas con el siguiente mensaje:')
     st.error('Probabilidades altas de tener adiciones futuras en la cuantía del contrato mayores al 50%')
     st.subheader('**Para mayor información descargue el manual de usuario para el usa de esta aplicación a continuacion:**')
-    link = '[GitHub](https://github.com/djrodriguezc1/Vistra_vision_de_transparencia/blob/main/Manual_usuario_app.pdf)'
+    link = '[Manual de usuario](https://github.com/djrodriguezc1/Vistra_vision_de_transparencia/blob/main/Manual_usuario_app.pdf)'
     st.markdown(link, unsafe_allow_html=True)
     st.subheader('**A continuación use el cursor o escriba las 12 características solicitadas del contrato que quiere evaluar.**')
 
