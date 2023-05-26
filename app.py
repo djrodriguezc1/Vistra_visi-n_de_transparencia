@@ -101,7 +101,7 @@ def main():
     if (rango == 'M'):
         st.success("Meses")
     elif(rango == 'D'):
-        st.success("Das")
+        st.success("Días")
     else:
         st.success("No sabe")
     st.write('Seleccionaste:',rango)
