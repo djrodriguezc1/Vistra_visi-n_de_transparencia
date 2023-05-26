@@ -54,7 +54,7 @@ def main():
     # Encabezados y texto explicativo de la herramienta predictiva
     # width is used to set the width of an image
     st.image(img, width=200)
-    st.title("Predicción Adiciones en la Cuantia de los Contratos de Contratación Pública")
+    st.title("Predicción Adiciones en la Cuantía de los Contratos de Contratación Pública")
     st.markdown('El objetivo del modelo predictivo  es realizar una predicción acerca de si un nuevo contrato superará el 50% del valor en adiciones con respecto a su valor inicial, incumpliendo el párrafo 2 del parágrafo único del artículo 40 de la ley 80 de 1993, para esto se tienen en cuenta las siguientes 12 características del contrato:')
     st.markdown('**Tipo de Proceso,Objeto a Contratar,Tipo de Contrato,Nombre de la Entidad,Nombre Grupo,Nombre Clase,Plazo de Ejecución del Contrato,Rango de Ejecución del Contrato,Cuantiá del Contrato,Origen de los Recursos,Municipio de la Entidad,Departamento de la Entidad**')
     st.markdown('Si el contrato tiene probabilidades bajas a moderadas de incumplir la norma el resultado es un letrero en letras verdes con el siguiente mensaje:')
@@ -99,7 +99,7 @@ def main():
         st.success("Días")
     else:
         st.success("No sabe")
-    st.write('Seleccionaste:', rango)
+    st.write('Seleccionaste:',plazo rango)
     cuantia = st.number_input('Cuantia del Contrato(inserte valores enteros mayores a 1 millón)',1000000,100000000000000,1000000)
     st.write('La cuantia del contrato en millones es:', cuantia/1000000)
     origen_recursos = st.selectbox(
