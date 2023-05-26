@@ -99,7 +99,7 @@ def main():
         st.success("Días")
     else:
         st.success("No sabe")
-    st.write('Seleccionaste:',plazo, rango)
+    st.write('Seleccionaste:',rango)
     cuantia = st.number_input('Cuantia del Contrato(inserte valores enteros mayores a 1 millón)',1000000,100000000000000,1000000)
     st.write('La cuantia del contrato en millones es:', cuantia/1000000)
     origen_recursos = st.selectbox(
