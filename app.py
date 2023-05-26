@@ -64,7 +64,7 @@ def main():
     st.subheader('**Para mayor información descargue el manual de usuario para el usa de esta aplicación a continuacion:**')
     with open("Manual_usuarui_app", "rb") as pdf_file:
         PDF= pdf_file.read()
-    st.download_button(label="Manual de Usuario", data=PDF ,file_name='Manual_usuarui_app.pdf',mime='pdf',)
+    st.download_button(label="Manual de Usuario", data=PDF ,file_name='Manual_usuarui_app.pdf',mime='Descargas')
     st.subheader('**A continuación use el cursor o escriba las 12 características solicitadas del contrato que quiere evaluar.**')
 
     # Despliegiçue de las variables
