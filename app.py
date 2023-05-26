@@ -64,7 +64,7 @@ def main():
     st.subheader('*Para mayor información descargue el manual de usuario y vea el video explicativo para el uso de esta aplicación a continuacion:*')
     link = '[Manual de usuario](https://github.com/djrodriguezc1/Vistra_vision_de_transparencia/blob/main/Manual_usuario_app.pdf)'
     st.markdown(link, unsafe_allow_html=True)
-    link2='[Video explicativo](https://raw.githubusercontent.com/djrodriguezc1/Vistra_vision_de_transparencia/main/videoexplicativo.webm)'
+    link2='[Video explicativo](https://youfiles.herokuapp.com/videodictionary/?m=Video_Player_Drive&state=%7B%22ids%22:%5B%221WmhM8jS_UjlnIB5kKSTygofXF8blAI77%22%5D,%22action%22:%22open%22,%22resourceKeys%22:%7B%7D%7D)'
     st.markdown(link2,unsafe_allow_html=True)
     st.subheader('**A continuación use el cursor o escriba las 12 características solicitadas del contrato que quiere evaluar.**')
 
